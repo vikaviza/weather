@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Responsive weather page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Weather.com</h1>
+            <ion-icon name="menu-sharp" id="burger"></ion-icon>
+        </nav>
+        <div class="h2_block">
+            <h2>New York, NY</h2>
+            <p>Tuesday, April 15th</p>
+            <p>Overcast</p>
+            <div class="weather_info">
+                <div class="weather">
+                    <ion-icon name="cloudy-sharp" class="cloudy-sharp"></ion-icon>
+                    <p class="number">58</p>
+                    <p class="f">°F</p>
+                </div>
+                <div class="info">
+                    <p>Percipitation: 100%</p>
+                    <p>Humidity: 97%</p>
+                    <p>Wind: 4 mph SW</p>
+                    <p>Pollen Count: 36</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="days today">
+            <p class="day">Today</p>
+            <div class="icon"><img src="/icons/thunder.svg" alt="thunder"></div>
+            <div class="degree">
+                <div class="fday">68°</div>
+                <div class="fnight">36°</div>
+            </div>
+            <div class="pollen"><p>Pollen </p><p>36</p></div>
+        </div>
+        <div class="days wednesday">
+            <p class="day">Wednesday</p>
+            <div class="icon"><img src="/icons/day.svg" alt="sunny"></div>
+            <div class="degree">
+                <div class="fday">50°</div>
+                <div class="fnight">39°</div>
+            </div>
+            <div class="pollen"><p>Pollen </p><p>36</p></div>
+        </div>
+        <div class="days thursday">
+            <p class="day">Thursday</p>
+            <div class="icon"><img src="/icons/day.svg" alt="sunny"></div>
+            <div class="degree">
+                <div class="fday">55°</div>
+                <div class="fnight">39°</div>
+            </div>
+            <div class="pollen"><p>Pollen </p><p>36</p></div>
+        </div>
+        <div class="days friday">
+            <p class="day">Friday</p>
+            <div class="icon"><img src="/icons/cloudy-day-3.svg" alt="cloudy"></div>
+            <div class="degree">
+                <div class="fday">54°</div>
+                <div class="fnight">43°</div>
+            </div>
+            <div class="pollen"><p>Pollen </p><p>36</p></div>
+        </div>
+        <div class="days saturday">
+            <p class="day">Saturday</p>
+            <div class="icon"><img src="/icons/rainy-6.svg" alt="rainy"></div>
+            <div class="degree">
+                <div class="fday">64°</div>
+                <div class="fnight">46°</div>
+            </div>
+            <div class="pollen"><p>Pollen </p><p>36</p></div>
+        </div>
+        <div class="days sunday">
+            <p class="day">Sunday</p>
+            <div class="icon"><img src="/icons/rainy-6.svg" alt="rainy"></div>
+            <div class="degree">
+                <div class="fday">64°</div>
+                <div class="fnight">50°</div>
+            </div>
+            <div class="pollen"><p>Pollen </p><p>36</p></div>
+        </div>
+        <div class="days monday">
+            <p class="day">Monday</p>
+            <div class="icon"><img src="/icons/cloudy-day-3.svg" alt="cloudy"></div>
+            <div class="degree">
+                <div class="fday">61°</div>
+                <div class="fnight">50°</div>
+            </div>
+            <div class="pollen"><p>Pollen </p><p>36</p></div>
+        </div>
+    </main>
+</body>
+</html>
